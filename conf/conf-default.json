@@ -1,0 +1,78 @@
+{
+  "hostName": "BBW",
+  "serverIP": "220.231.252.31",
+  "upstreamIP": "127.0.0.1",
+  "updateConsumeMaxTime": "30",
+  "tomcatRestartMaxTime": "15",
+  "checkRate": "3",
+  "projectInfo": {
+    "YXYBB": {
+      "serviceCheckUrl": "/YXYBB/restservices/servicecheck/oamp_checkTomcatAvailable/query",
+      "serviceCheckPar": "{\"service\":\"timeservice\",\"version\":\"1.0.0\"}",
+      "rebootMaxCheckCount": "10",
+      "deploymentMode": "onehalf",
+      "tomcatScript": "tomcatstartscriptpath",
+      "upstreamName": "YXYBB",
+      "nginxConfPath": "D:\\PycharmProjects\\Longrise\\loamp\\func\\updateScript\\files\\nginx.conf",
+      "nginxReloadCmd": "/usr/local/nginx/sbin/nginx -s reload",
+      "nginxReplaceStartTag": "###NGINXREPLACE###START###YXYBB###",
+      "nginxReplaceEndTag": "###NGINXREPLACE###END###YXYBB###",
+      "nginxRootStartTag": "###NGINXREPLACE###ROOTSTART###YXYBB###",
+      "nginxRootEndTag": "###NGINXREPLACE###ROOTEND###YXYBB###",
+      "masterGroup": {
+        "projectPath": "/usr/longrise/LEAP/YXYBB",
+        "nginxRootConf": "xxxxxxxxxxxxxxxxxxx",
+        "tomcats": [
+          {
+            "tag": "1",
+            "port": "64001"
+          }
+        ]
+      },
+      "backupGroup": {
+        "projectPath": "/usr/longrise/YXYBB",
+        "nginxRootConf": "xxxxxxxxxxxxxxxxxxx",
+        "tomcats": [
+          {
+            "tag": "3",
+            "port": "64003"
+          }
+        ]
+      }
+    },
+    "LESP": {
+      "serviceCheckUrl": "/YXYBB/restservices/servicecheck/oamp_checkTomcatAvailable/query",
+      "serviceCheckPar": "{\"service\":\"timeservice\",\"version\":\"1.0.0\"}",
+      "rebootMaxCheckCount": "10",
+      "deploymentMode": "onehalf",
+      "tomcatScript": "tomcatstartscriptpath",
+      "upstreamName": "YXYBB",
+      "nginxConfPath": "D:\\PycharmProjects\\Longrise\\loamp\\func\\updateScript\\files\\nginx.conf",
+      "nginxReloadCmd": "/usr/local/nginx/sbin/nginx -s reload",
+      "nginxReplaceStartTag": "###NGINXREPLACE###START###YXYBB###",
+      "nginxReplaceEndTag": "###NGINXREPLACE###END###YXYBB###",
+      "nginxRootStartTag": "###NGINXREPLACE###ROOTSTART###YXYBB###",
+      "nginxRootEndTag": "###NGINXREPLACE###ROOTSTART###YXYBB###",
+      "masterGroup": {
+        "projectPath": "/usr/longrise/LEAP/YXYBB",
+        "nginxRootConf": "xxxxxxxxxxxxxxxxxxx",
+        "tomcats": [
+          {
+            "tag": "1",
+            "port": "64001"
+          }
+        ]
+      },
+      "backupGroup": {
+        "projectPath": "/usr/longrise/YXYBB",
+        "nginxRootConf": "xxxxxxxxxxxxxxxxxxx",
+        "tomcats": [
+          {
+            "tag": "3",
+            "port": "64003"
+          }
+        ]
+      }
+    }
+  }
+}

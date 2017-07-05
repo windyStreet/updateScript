@@ -1,0 +1,50 @@
+{
+    "YXYBB": {
+        "updateTime": "20170405", 
+        "updateMsg": "YXYBB update", 
+        "updateVersion": "318.003", 
+        "name": "保宝网"
+    }, 
+    "BBT": {
+        "updateTime": "20170405", 
+        "updateMsg": "BBT update", 
+        "updateVersion": "439.001", 
+        "name": "保宝app"
+    }, 
+    "LSIP": {
+        "updateTime": "20170405", 
+        "updateMsg": "LSIP update", 
+        "updateVersion": "417.009", 
+        "name": "执业证管理平台"
+    }, 
+    "LAMP": {
+        "updateTime": "20170117", 
+        "updateMsg": "LAMP update", 
+        "updateVersion": "83", 
+        "name": "在线广告"
+    }, 
+    "HNIS": {
+        "updateTime": "20170406", 
+        "updateMsg": "HNIS update", 
+        "updateVersion": "301", 
+        "name": "河南消保"
+    }, 
+    "JERSEYYXYBB": {
+        "updateTime": "20170307", 
+        "updateMsg": "JERSEYYXYBB update", 
+        "updateVersion": "10", 
+        "name": "保宝网jersey 服务端"
+    }, 
+    "insy": {
+        "updateTime": "20170324", 
+        "updateMsg": "insy update", 
+        "updateVersion": "339", 
+        "name": "保易网"
+    }, 
+    "GZIS": {
+        "updateTime": "20170405", 
+        "updateMsg": "GZIS update", 
+        "updateVersion": "116", 
+        "name": "贵州消保"
+    }
+}

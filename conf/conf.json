@@ -1,0 +1,39 @@
+{
+  "serverIP": "220.231.252.31",
+  "projectInfo": {
+    "YXYBB": {
+      "serviceCheckUrl": "/YXYBB/restservices/servicecheck/oamp_checkTomcatAvailable/query",
+      "serviceCheckPar": "{\"service\":\"timeservice\",\"version\":\"1.0.0\"}",
+      "rebootMaxCheckCount": "10",
+      "deploymentMode": "single",
+      "tomcatScript": "tomcatstartscriptpath",
+      "upstreamName": "YXYBB",
+      "nginxConfPath": "D:\\PycharmProjects\\Longrise\\loamp\\func\\updateScript\\files\\nginx.conf",
+      "nginxReloadCmd": "/usr/local/nginx/sbin/nginx -s reload",
+      "nginxReplaceStartTag": "###NGINX-START-TAG-FOR-UPSTREAM-PROJECT-NAME###",
+      "nginxReplaceEndTag": "###NGINX-END-TAG-FOR-UPSTREAM-PROJECT-NAME###",
+      "nginxRootStartTag": "###NGINX-START-TAG-FOR-ROOT-PROJECT-NAME###",
+      "nginxRootEndTag": "###NGINX-END-TAG-FOR-ROOT-PROJECT-NAME###",
+      "masterGroup": {
+        "projectPath": "/usr/longrise/LEAP/YXYBB",
+        "nginxRootConf": "xxxxxxxxxxxxxxxxxxx",
+        "tomcats": [
+          {
+            "tag": "1",
+            "port": "64001"
+          }
+        ]
+      },
+      "backupGroup": {
+        "projectPath": "/usr/longrise/YXYBB",
+        "nginxRootConf": "xxxxxxxxxxxxxxxxxxx",
+        "tomcats": [
+          {
+            "tag": "3",
+            "port": "64003"
+          }
+        ]
+      }
+    }
+  }
+}

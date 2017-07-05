@@ -1,0 +1,17 @@
+{
+    "SMTP": {
+        "senderMailName": "运维平台",
+        "senderMailPassword": "20170203",
+        "name": "smtp.longrise.com.cn",
+        "senderMailAccount": "devops@longrise.com.cn",
+        "port": "25"
+    },
+    "receiver": [
+        {
+            "level": "10",
+            "role": "admin",
+            "name": "姚高超",
+            "email": "yaogc@longrise.com.cn"
+        }
+    ]
+}
